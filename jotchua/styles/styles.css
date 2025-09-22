@@ -1,6 +1,19 @@
 h1 {
     text-align: center;
 }
-imr {
+header {
     text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    text-align: center;
+    vertical-align: middle;
+    padding: 3em;
+   
 }
