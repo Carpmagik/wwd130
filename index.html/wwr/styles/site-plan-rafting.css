@@ -30,6 +30,15 @@ Fonts are separated by a & */
 
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
+#background {
+  height: 725px;
+}
+
+#content {
+  max-width: 1600px;
+  margin: 0 auto;
+
+}
 
 body {
   max-width: 960px;
@@ -37,6 +46,7 @@ body {
   padding: 7em;
   font-size: 18px;
   text-align: center;
+  
 }
 img {
   display: block;
@@ -60,6 +70,7 @@ header {
   text-align: center;
   color: var(--headline-color-on-color);
   background-color: var(--paragraph-background-color);
+  
 }
 header > h1, header > h2 {
   color: var(--headline-color-on-color);
@@ -113,6 +124,8 @@ nav a {
   min-width: 120px;
   text-decoration: none;
   padding: 10px;
+  text-align: center;
+  
 }
 nav a:link, nav a:visited {
   color: var(--nav-link-color);
