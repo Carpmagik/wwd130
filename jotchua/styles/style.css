@@ -1,0 +1,28 @@
+section {
+
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+
+}
+    img{ 
+    border-radius: 50%;
+    border: 10px solid black;
+    margin: 20px;
+
+
+}
+
+.s{
+    border:none;
+    border-radius: 10px;
+}
+
+body {
+    background-color: darkgray;
+}
+
+  
+
+
