@@ -36,8 +36,10 @@ header {
     grid-template-columns: 150px auto;
 }
 nav a:hover {
+
+    text-decoration: underline;
     background-color: rgb(90, 122, 84);
-    text-decoration: none;
+    
     
 }
 
@@ -99,7 +101,7 @@ footer p {
 
 footer p a:hover {
     text-decoration: underline;
-    background-color: rgb(208, 176, 238);
+    background-color: rgb(119, 196, 153);
     
     
 }    
@@ -225,6 +227,7 @@ main section {
     nav a {
         display: block;
         padding: 15px;
+        color: white;
     }
     #hero {
         margin-top: 0;
@@ -253,7 +256,54 @@ main section {
         display: block;
         margin: 0 auto;
     }
+
     footer {
         margin-top: 25px;
     }
+}
+
+
+/* rivers.html styles */
+
+.rivers-explore {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+    margin-top: 20px;
+    
+
+}
+
+.box {
+    border: 5px solid #d9c2a3;
+    box-shadow: 5px 5px 10px #6f7364;
+    padding: 20px;
+    height: 225px;
+    margin: 20px;
+    grid-column: 2/4
+    
+    
+
+
+}
+
+.colorado {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    z-index: -1;
+    margin: auto;
+}
+
+.salmon {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    z-index: -1;
+    margin: auto;
+}
+
+.narrow {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    z-index: -1;
+    margin: auto;
 }
