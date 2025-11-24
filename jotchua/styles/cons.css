@@ -57,7 +57,7 @@ nav a:link, nav a:visited {
 }
 nav a:hover {
   color: white;
-  background-color: rgb(80, 237, 237);
+  background-color: rgb(66, 205, 205);
 
 }
 .home-grid {
@@ -67,4 +67,71 @@ nav a:hover {
   gap: 20px;
 
 }
+  h1 {
+    text-align: center;
+    align-items: center;
+    grid-column: 2/4;
+   
+
+    
+    
+    
+  }
+.info-section {
+
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr ;
   
+}
+
+.info {
+
+  background-color: lightgrey;
+  padding: 20px;
+  border-radius: 5px;
+  grid-column: 2 / 3;
+  grid-row: 2 / 4;
+}
+
+.jotchua-pic{
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+
+.con {
+  background-color: lightgrey;
+  padding: 20px;
+  border-radius: 5px;
+  grid-column: 3 / 4;
+  grid-row: 3 / 4;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 25px 50px;
+    
+}
+footer p {
+    font-size: 1.2em;
+    color: #ffffff;
+    font-family: monospace, Courier, bold;
+}    
+
+footer p a:hover {
+    text-decoration: underline;
+    background-color: rgb(119, 196, 153);
+}
+.socail{
+    align-items: center;
+    text-align: center;
+}
+
+#icon {
+  margin-top: 10px;
+}
